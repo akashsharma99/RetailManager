@@ -65,4 +65,11 @@
   <ItemGroup>
     <None Include="PublishLocations\RetailDatabase.publish.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbowner\Tables\Product.sql" />
+    <Build Include="dbowner\Tables\Sale.sql" />
+    <Build Include="dbowner\Tables\SaleDetail.sql" />
+    <Build Include="dbowner\Tables\User.sql" />
+    <Build Include="dbowner\Tables\Inventory.sql" />
+  </ItemGroup>
 </Project>
